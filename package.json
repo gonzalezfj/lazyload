@@ -1,0 +1,32 @@
+{
+  "name": "lazyload",
+  "version": "1.0.0",
+  "description": "Prueba image lazy load",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p 9001",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzalezfj/lazyload.git"
+  },
+  "keywords": [
+    "lazyload",
+    "image"
+  ],
+  "author": "Facundo J Gonzalez",
+  "license": "gpl",
+  "bugs": {
+    "url": "https://github.com/gonzalezfj/lazyload/issues"
+  },
+  "homepage": "https://github.com/gonzalezfj/lazyload#readme",
+  "dependencies": {
+    "@next/bundle-analyzer": "^9.5.1",
+    "lazysizes": "^5.2.2",
+    "next": "^9.5.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

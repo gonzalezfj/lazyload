@@ -1,0 +1,23 @@
+.container {
+  column-gap: 1.5em;
+}
+
+.item {
+  background: #fff;
+  padding: 1em;
+  margin: 0 0 1.5em;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.item header {
+  font-weight: bold;
+  margin-bottom: 1em;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.item img {
+  object-fit: cover;
+}

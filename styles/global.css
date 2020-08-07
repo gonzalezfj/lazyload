@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 2em 4em;
+}
+
+main {
+  max-width: 70vw;
+  margin: auto;
+}
+nav a {
+  margin-right: 1em;
+}
+
+.lazyload {
+	opacity: 0;
+}
+
+.lazyloading {
+	opacity: 1;
+	transition: opacity 300ms;
+	background: #f7f7f7 url('/loader.gif') no-repeat center;
+}
